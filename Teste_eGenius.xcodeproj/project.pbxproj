@@ -7,16 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E56DDB71AEAB074009F8069 /* libOAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E56DDB21AEAAF99009F8069 /* libOAuth2Client.a */; };
+		3E56DDB91AEAB279009F8069 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E56DDB81AEAB279009F8069 /* Security.framework */; };
 		3E946ACE1AE19DD500F6E070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946ACD1AE19DD500F6E070 /* main.m */; };
 		3E946AD11AE19DD500F6E070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946AD01AE19DD500F6E070 /* AppDelegate.m */; };
 		3E946AD41AE19DD500F6E070 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946AD31AE19DD500F6E070 /* ViewController.m */; };
 		3E946AD71AE19DD500F6E070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E946AD51AE19DD500F6E070 /* Main.storyboard */; };
-		3E946AD91AE19DD500F6E070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E946AD81AE19DD500F6E070 /* Images.xcassets */; };
 		3E946ADC1AE19DD500F6E070 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E946ADA1AE19DD500F6E070 /* LaunchScreen.xib */; };
 		3E946AE81AE19DD500F6E070 /* Teste_eGeniusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946AE71AE19DD500F6E070 /* Teste_eGeniusTests.m */; };
+		3E946AF51AE292A900F6E070 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E946AF11AE292A900F6E070 /* CoreGraphics.framework */; };
+		3E946AF61AE292A900F6E070 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E946AF21AE292A900F6E070 /* CoreLocation.framework */; };
+		3E946AF71AE292A900F6E070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E946AF31AE292A900F6E070 /* Foundation.framework */; };
+		3E946AF81AE292A900F6E070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E946AF41AE292A900F6E070 /* UIKit.framework */; };
+		3E946AFB1AE294CA00F6E070 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E946AF91AE292C200F6E070 /* MapKit.framework */; };
+		3E946B011AE2F4E500F6E070 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946B001AE2F4E500F6E070 /* CustomAnnotation.m */; };
+		3E946B031AE4A3C500F6E070 /* map-pin-red-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E946B021AE4A3C500F6E070 /* map-pin-red-md.png */; };
+		3E946B061AE5410D00F6E070 /* IntegrationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E946B051AE5410D00F6E070 /* IntegrationServices.m */; };
+		3ED5514C1AE6FF0C006ADCF1 /* BZFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED551491AE6FF0C006ADCF1 /* BZFoursquare.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3ED5514D1AE6FF0C006ADCF1 /* BZFoursquareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED5514B1AE6FF0C006ADCF1 /* BZFoursquareRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3ED5514F1AE6FF74006ADCF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED5514E1AE6FF74006ADCF1 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3E56DDAF1AEAAF99009F8069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 942FFCD612315E0A00E6C65E;
+			remoteInfo = OAuth2Client.framework;
+		};
+		3E56DDB11AEAAF99009F8069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = OAuth2Client;
+		};
+		3E56DDB31AEAAF99009F8069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94B6CE6619C1D0A200AA859B;
+			remoteInfo = OAuth2ClientTests;
+		};
+		3E56DDB51AEAB05C009F8069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = OAuth2Client;
+		};
 		3E946AE21AE19DD500F6E070 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3E946AC01AE19DD500F6E070 /* Project object */;
@@ -27,6 +67,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuth2Client.xcodeproj; path = OAuth2Client/OAuth2Client.xcodeproj; sourceTree = "<group>"; };
+		3E56DDB81AEAB279009F8069 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3E946AC81AE19DD500F6E070 /* Teste_eGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste_eGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E946ACC1AE19DD500F6E070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E946ACD1AE19DD500F6E070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,11 +77,25 @@
 		3E946AD21AE19DD500F6E070 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E946AD31AE19DD500F6E070 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3E946AD61AE19DD500F6E070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3E946AD81AE19DD500F6E070 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E946ADB1AE19DD500F6E070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E946AE11AE19DD500F6E070 /* Teste_eGeniusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Teste_eGeniusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E946AE61AE19DD500F6E070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E946AE71AE19DD500F6E070 /* Teste_eGeniusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teste_eGeniusTests.m; sourceTree = "<group>"; };
+		3E946AF11AE292A900F6E070 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E946AF21AE292A900F6E070 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3E946AF31AE292A900F6E070 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E946AF41AE292A900F6E070 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E946AF91AE292C200F6E070 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3E946AFF1AE2F4E500F6E070 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		3E946B001AE2F4E500F6E070 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		3E946B021AE4A3C500F6E070 /* map-pin-red-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map-pin-red-md.png"; path = "../../../../Desktop/map-pin-red-md.png"; sourceTree = "<group>"; };
+		3E946B041AE5410D00F6E070 /* IntegrationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationServices.h; sourceTree = "<group>"; };
+		3E946B051AE5410D00F6E070 /* IntegrationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationServices.m; sourceTree = "<group>"; };
+		3ED551481AE6FF0C006ADCF1 /* BZFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BZFoursquare.h; path = "../../../../Downloads/foursquare-ios-api-master 2/BZFoursquare/BZFoursquare.h"; sourceTree = "<group>"; };
+		3ED551491AE6FF0C006ADCF1 /* BZFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BZFoursquare.m; path = "../../../../Downloads/foursquare-ios-api-master 2/BZFoursquare/BZFoursquare.m"; sourceTree = "<group>"; };
+		3ED5514A1AE6FF0C006ADCF1 /* BZFoursquareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BZFoursquareRequest.h; path = "../../../../Downloads/foursquare-ios-api-master 2/BZFoursquare/BZFoursquareRequest.h"; sourceTree = "<group>"; };
+		3ED5514B1AE6FF0C006ADCF1 /* BZFoursquareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BZFoursquareRequest.m; path = "../../../../Downloads/foursquare-ios-api-master 2/BZFoursquare/BZFoursquareRequest.m"; sourceTree = "<group>"; };
+		3ED5514E1AE6FF74006ADCF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +103,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E56DDB91AEAB279009F8069 /* Security.framework in Frameworks */,
+				3E56DDB71AEAB074009F8069 /* libOAuth2Client.a in Frameworks */,
+				3ED5514F1AE6FF74006ADCF1 /* MobileCoreServices.framework in Frameworks */,
+				3E946AFB1AE294CA00F6E070 /* MapKit.framework in Frameworks */,
+				3E946AF51AE292A900F6E070 /* CoreGraphics.framework in Frameworks */,
+				3E946AF61AE292A900F6E070 /* CoreLocation.framework in Frameworks */,
+				3E946AF71AE292A900F6E070 /* Foundation.framework in Frameworks */,
+				3E946AF81AE292A900F6E070 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +124,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E56DDAA1AEAAF99009F8069 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E56DDB01AEAAF99009F8069 /* OAuth2Client.framework */,
+				3E56DDB21AEAAF99009F8069 /* libOAuth2Client.a */,
+				3E56DDB41AEAAF99009F8069 /* OAuth2ClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3E946ABF1AE19DD500F6E070 = {
 			isa = PBXGroup;
 			children = (
+				3E56DDB81AEAB279009F8069 /* Security.framework */,
+				3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */,
+				3ED5514E1AE6FF74006ADCF1 /* MobileCoreServices.framework */,
+				3E946AF91AE292C200F6E070 /* MapKit.framework */,
+				3E946AF11AE292A900F6E070 /* CoreGraphics.framework */,
+				3E946AF21AE292A900F6E070 /* CoreLocation.framework */,
+				3E946AF31AE292A900F6E070 /* Foundation.framework */,
+				3E946AF41AE292A900F6E070 /* UIKit.framework */,
 				3E946ACA1AE19DD500F6E070 /* Teste_eGenius */,
 				3E946AE41AE19DD500F6E070 /* Teste_eGeniusTests */,
 				3E946AC91AE19DD500F6E070 /* Products */,
@@ -81,14 +163,22 @@
 		3E946ACA1AE19DD500F6E070 /* Teste_eGenius */ = {
 			isa = PBXGroup;
 			children = (
+				3ED551481AE6FF0C006ADCF1 /* BZFoursquare.h */,
+				3ED551491AE6FF0C006ADCF1 /* BZFoursquare.m */,
+				3ED5514A1AE6FF0C006ADCF1 /* BZFoursquareRequest.h */,
+				3ED5514B1AE6FF0C006ADCF1 /* BZFoursquareRequest.m */,
 				3E946ACF1AE19DD500F6E070 /* AppDelegate.h */,
 				3E946AD01AE19DD500F6E070 /* AppDelegate.m */,
 				3E946AD21AE19DD500F6E070 /* ViewController.h */,
 				3E946AD31AE19DD500F6E070 /* ViewController.m */,
 				3E946AD51AE19DD500F6E070 /* Main.storyboard */,
-				3E946AD81AE19DD500F6E070 /* Images.xcassets */,
 				3E946ADA1AE19DD500F6E070 /* LaunchScreen.xib */,
+				3E946B021AE4A3C500F6E070 /* map-pin-red-md.png */,
 				3E946ACB1AE19DD500F6E070 /* Supporting Files */,
+				3E946AFF1AE2F4E500F6E070 /* CustomAnnotation.h */,
+				3E946B001AE2F4E500F6E070 /* CustomAnnotation.m */,
+				3E946B041AE5410D00F6E070 /* IntegrationServices.h */,
+				3E946B051AE5410D00F6E070 /* IntegrationServices.m */,
 			);
 			path = Teste_eGenius;
 			sourceTree = "<group>";
@@ -133,6 +223,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3E56DDB61AEAB05C009F8069 /* PBXTargetDependency */,
 			);
 			name = Teste_eGenius;
 			productName = Teste_eGenius;
@@ -168,6 +259,7 @@
 				TargetAttributes = {
 					3E946AC71AE19DD500F6E070 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = M463AML727;
 					};
 					3E946AE01AE19DD500F6E070 = {
 						CreatedOnToolsVersion = 6.3;
@@ -186,6 +278,12 @@
 			mainGroup = 3E946ABF1AE19DD500F6E070;
 			productRefGroup = 3E946AC91AE19DD500F6E070 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3E56DDAA1AEAAF99009F8069 /* Products */;
+					ProjectRef = 3E56DDA91AEAAF99009F8069 /* OAuth2Client.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3E946AC71AE19DD500F6E070 /* Teste_eGenius */,
@@ -194,14 +292,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3E56DDB01AEAAF99009F8069 /* OAuth2Client.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuth2Client.framework;
+			remoteRef = 3E56DDAF1AEAAF99009F8069 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E56DDB21AEAAF99009F8069 /* libOAuth2Client.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOAuth2Client.a;
+			remoteRef = 3E56DDB11AEAAF99009F8069 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3E56DDB41AEAAF99009F8069 /* OAuth2ClientTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuth2ClientTests.xctest;
+			remoteRef = 3E56DDB31AEAAF99009F8069 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3E946AC61AE19DD500F6E070 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3E946AD71AE19DD500F6E070 /* Main.storyboard in Resources */,
+				3E946B031AE4A3C500F6E070 /* map-pin-red-md.png in Resources */,
 				3E946ADC1AE19DD500F6E070 /* LaunchScreen.xib in Resources */,
-				3E946AD91AE19DD500F6E070 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +343,10 @@
 			files = (
 				3E946AD41AE19DD500F6E070 /* ViewController.m in Sources */,
 				3E946AD11AE19DD500F6E070 /* AppDelegate.m in Sources */,
+				3E946B011AE2F4E500F6E070 /* CustomAnnotation.m in Sources */,
+				3E946B061AE5410D00F6E070 /* IntegrationServices.m in Sources */,
+				3ED5514C1AE6FF0C006ADCF1 /* BZFoursquare.m in Sources */,
+				3ED5514D1AE6FF0C006ADCF1 /* BZFoursquareRequest.m in Sources */,
 				3E946ACE1AE19DD500F6E070 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +362,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3E56DDB61AEAB05C009F8069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuth2Client;
+			targetProxy = 3E56DDB51AEAB05C009F8069 /* PBXContainerItemProxy */;
+		};
 		3E946AE31AE19DD500F6E070 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3E946AC71AE19DD500F6E070 /* Teste_eGenius */;
@@ -349,9 +480,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"/Users/jeffs/Documents/untitled folder/Teste_eGenius/OAuth2Client\"/**",
+				);
 				INFOPLIST_FILE = Teste_eGenius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +500,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GENERATE_PROFILING_CODE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"/Users/jeffs/Documents/untitled folder/Teste_eGenius/OAuth2Client\"/**",
+				);
 				INFOPLIST_FILE = Teste_eGenius/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +569,7 @@
 				3E946AED1AE19DD500F6E070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E946AEE1AE19DD500F6E070 /* Build configuration list for PBXNativeTarget "Teste_eGeniusTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +578,7 @@
 				3E946AF01AE19DD500F6E070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
